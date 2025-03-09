@@ -101,7 +101,7 @@ class MyApp(App):
         self.textinputed+='0'
     def ok(self,inst):
         self.label2.text=''
-        if self.textinputed=='532625':           
+        if self.textinputed=='12345':           
             self.label2.background_color=(0,1,0,1)
             self.btn_open.bind(on_press=self.opensafe)
         else:
